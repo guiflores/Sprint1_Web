@@ -32,10 +32,13 @@ RM:555561<br>
 https://www.linkedin.com/in/luizfernando-souza/
 
 Adolfo Kentaro Hada
+RM:556884<br>
 https://www.linkedin.com/in/adolfo-k-73b069238
 
 Guilherme Flores Pereira De Almeida
+RM:554948<br>
 https://www.linkedin.com/in/guilherme-flores-119a272a8/
 
 Guilherme Palhari Conceição
+RM:557073<br>
 https://www.linkedin.com/in/guilherme-palhari-21391a253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
