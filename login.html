@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Fórmula E</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
     <header>
         <h1>Login</h1>
     </header>
-    <main>
-        <form id="loginForm">
-            <label for="username">Usuário:</label>
-            <input type="text" id="username" name="username" required>
-            <label for="password">Senha:</label>
-            <input type="password" id="password" name="password" required>
-            <button type="submit" onclick="entrar()">Entrar</button>
-        </form>
+    <main> 
+        <div class="login-container">
+            <div class="cartao-login">
+                <input id="user" type="text" placeholder="Usuário" required>
+                <input id="senha" name="senha" type="password" placeholder="Senha" required>
+                <button id="login" onclick="entrar()">Entrar</button>
+            </div>
+        </div>
     </main>
     <script src="script.js"></script>
 </body>
 </html>
+

@@ -21,25 +21,29 @@ function entrar(){
 }
 
 
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
+function showSlides(n) {
     var slides = document.getElementsByClassName('slide');
+    if (n >= slides.length) {
+        slideIndex = 0;
+    } else if (n < 0) {
+        slideIndex = slides.length - 1;
+    } else {
+        slideIndex = n;
+    }
     for (var i = 0; i < slides.length; i++) {
         slides[i].style.display = 'none';
     }
-    slideIndex++;
-    if (slideIndex > slides.length) { slideIndex = 1; }
-    slides[slideIndex - 1].style.display = 'block';
-    setTimeout(showSlides, 3000); 
+    slides[slideIndex].style.display = 'block';
 }
 
 document.getElementById('prevBtn').addEventListener('click', function() {
-    slideIndex -= 2;
-    showSlides();
+    showSlides(slideIndex - 1);
 });
 
 document.getElementById('nextBtn').addEventListener('click', function() {
-    showSlides();
+    showSlides(slideIndex + 1);
 });
+
+function voltar(){
+    window.location.href = 'index.html';
+};
